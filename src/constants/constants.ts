@@ -7,4 +7,8 @@ export const localeMessages = {
   ReliabilityImgAlt: "welding",
   ScaleTitle: "scale your app to infinity.",
   ScaleImgAlt: "steel  factory",
+  HeaderLinkPerformance: "performance",
+  HeaderLinkReliability: "reliability",
+  HeaderLinkScale: "scale",
+  HeaderLinkHome: "home",
 };
