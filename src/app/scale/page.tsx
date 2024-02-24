@@ -1,6 +1,6 @@
 import ServiceCard from "@/components/ServiceCard";
 import { localeMessages } from "@/constants/constants";
-import scaleImg from "public/images/reliability.jpg";
+import scaleImg from "public/images/scale.jpg";
 
 export default function ScalePage() {
   return (
