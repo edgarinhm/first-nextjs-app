@@ -18,7 +18,7 @@ export default function ServiceCard(props: Readonly<ServiceCardProps>) {
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900"></div>
       </div>
       <div className="pt-48 flex justify-center items-center">
-        <h1 className="text-white text-6xl">{props.title}</h1>
+        <h1 className="text-white text-6xl capitalize">{props.title}</h1>
       </div>
     </div>
   );
