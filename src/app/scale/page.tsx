@@ -1,3 +1,13 @@
+import ServiceCard from "@/components/ServiceCard";
+import { localeMessages } from "@/constants/constants";
+import scaleImg from "public/images/reliability.jpg";
+
 export default function ScalePage() {
-  return <div>Welcome to Scale Page!</div>;
+  return (
+    <ServiceCard
+      imgData={scaleImg}
+      imgAlt={localeMessages.ScaleImgAlt}
+      title={localeMessages.ScaleTitle}
+    />
+  );
 }

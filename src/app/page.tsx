@@ -1,13 +1,13 @@
-import Link from "next/link";
+import ServiceCard from "@/components/ServiceCard";
+import { localeMessages } from "@/constants/constants";
+import homeImg from "public/images/home.jpg";
+
 export default function Home() {
   return (
-    <div>
-      <div>
-        <Link href="/performance">Performance</Link>
-        <Link href="/reliability">Reliability</Link>
-        <Link href="/scale">Scale</Link>
-      </div>
-      Home Page
-    </div>
+    <ServiceCard
+      imgData={homeImg}
+      imgAlt={localeMessages.HomeImgAlt}
+      title={localeMessages.HomeTitle}
+    />
   );
 }
