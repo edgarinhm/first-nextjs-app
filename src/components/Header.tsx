@@ -2,7 +2,7 @@ import { localeMessages } from "@/constants/constants";
 import Link from "next/link";
 export default function Header() {
   return (
-    <div className="w-full absolute text-white z-10">
+    <header className="w-full absolute text-white z-10">
       <nav className="container relative flex flex-wrap items-center justify-between mx-auto p-8 capitalize">
         <Link href="/" className="font-bold text-3xl">
           {localeMessages.HeaderLinkHome}
@@ -17,6 +17,6 @@ export default function Header() {
           <Link href="/scale">{localeMessages.HeaderLinkScale}</Link>
         </div>
       </nav>
-    </div>
+    </header>
   );
 }
